@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav .nav-top {
+  width: 100%;
+  height: 25px;
+  background-color: #0282F9;
+}
+nav .nav-top .container {
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 500;
+}
+nav .nav-top .container .info-top span:first-child {
+  margin-right: 100px;
+}
+nav .nav-bottom {
+  width: 100%;
+  height: 80px;
+}
+nav .nav-bottom .container {
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+}
+nav .nav-bottom .container .info-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+nav .nav-bottom .container .info-bottom img {
+  height: 50px;
+}
+nav .nav-bottom .container .info-bottom ul {
+  display: flex;
+  text-transform: uppercase;
+  list-style: none;
+}
+nav .nav-bottom .container .info-bottom ul li {
+  height: 80px;
+  font-size: 0.8em;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+nav .nav-bottom .container .info-bottom ul li.active {
+  border-bottom: 4px solid #0282F9;
+}
+nav .nav-bottom .container .info-bottom ul li a {
+  text-decoration: none;
+  color: #000;
+}
+nav .nav-bottom .container .info-bottom ul li a.active {
+  color: #0282F9;
+}
+nav .nav-bottom .container .info-bottom .search {
+  font-size: 0.8em;
+  border-bottom: 2px solid #0282F9;
+}
+
+.jumbo {
+  height: 300px;
+  width: 100%;
+  background-color: red;
+}

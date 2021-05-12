@@ -10,7 +10,6 @@ nav .nav-top {
   height: 25px;
   background-color: #0282F9;
 }
-
 nav .nav-top .container {
   width: 75%;
   margin: 0 auto;
@@ -22,39 +21,32 @@ nav .nav-top .container {
   font-size: 0.7em;
   font-weight: 500;
 }
-
 nav .nav-top .container .info-top span:first-child {
   margin-right: 100px;
 }
-
 nav .nav-bottom {
   width: 100%;
   height: 80px;
 }
-
 nav .nav-bottom .container {
   width: 75%;
   margin: 0 auto;
   height: 100%;
 }
-
 nav .nav-bottom .container .info-bottom {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 100%;
 }
-
 nav .nav-bottom .container .info-bottom img {
   height: 50px;
 }
-
 nav .nav-bottom .container .info-bottom ul {
   display: flex;
   text-transform: uppercase;
   list-style: none;
 }
-
 nav .nav-bottom .container .info-bottom ul li {
   height: 80px;
   font-size: 0.8em;
@@ -64,22 +56,109 @@ nav .nav-bottom .container .info-bottom ul li {
   display: flex;
   align-items: center;
 }
-
 nav .nav-bottom .container .info-bottom ul li.active {
   border-bottom: 4px solid #0282F9;
 }
-
 nav .nav-bottom .container .info-bottom ul li a {
   text-decoration: none;
   color: #000;
 }
-
 nav .nav-bottom .container .info-bottom ul li a.active {
   color: #0282F9;
 }
-
 nav .nav-bottom .container .info-bottom .search {
   font-size: 0.8em;
   border-bottom: 2px solid #0282F9;
 }
 
+.jumbo {
+  height: 400px;
+  width: 100%;
+}
+.jumbo .container-jumbo {
+  height: 100%;
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+}
+
+main {
+  height: 500px;
+}
+
+footer .footer-top {
+  background-image: url("/images/footer-bg.jpg");
+  height: 460px;
+}
+footer .footer-top .container {
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+}
+footer .footer-top .container .left-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-top .container .left-container .ul-left {
+  margin-top: 40px;
+  display: flex;
+}
+footer .footer-top .container .left-container .ul-left ul {
+  list-style: none;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+footer .footer-top .container .left-container .ul-left ul li {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 22px;
+}
+footer .footer-top .container .left-container .ul-left ul li a {
+  text-decoration: none;
+  color: #959595;
+  text-transform: capitalize;
+  font-size: 0.6em;
+  font-weight: 400;
+}
+footer .footer-top .container .left-container p {
+  color: #959595;
+  font-size: 0.7em;
+  margin-top: 20px;
+}
+footer .footer-top .container .left-container p span {
+  color: #1F59EC;
+}
+footer .footer-top .container .right-container {
+  width: 50%;
+}
+footer .footer-bottom {
+  height: 80px;
+  background-color: #303030;
+}
+footer .footer-bottom .container {
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-bottom .container a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px;
+  border: 2px solid #1F59EC;
+}
+footer .footer-bottom .container .right-footer {
+  display: flex;
+  align-items: center;
+}
+footer .footer-bottom .container span {
+  text-transform: uppercase;
+  color: #1F59EC;
+  margin-right: 20px;
+}

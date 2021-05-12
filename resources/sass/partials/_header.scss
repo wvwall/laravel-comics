@@ -65,3 +65,12 @@ nav {
         }
     }
 }
+.jumbo {
+    height: 400px;
+    width: 100%;
+    .container-jumbo {
+        height: 100%;
+        background-image: url("/images/jumbotron.jpg");
+        background-size: cover;
+        }
+}
