@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">   
-
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     </head>
     <body>
         
@@ -27,7 +27,7 @@
                     <div class="nav-bottom">
                         <div class="container">
                             <div class="info-bottom">
-                                <img src="./images/dc-logo.png" alt="">
+                                <img src="/images/dc-logo.png" alt="">
                                 <ul>
                                     <li><a href="">characters</a></li>
                                     <li class="active" ><a class="active" href="">comics</a></li>

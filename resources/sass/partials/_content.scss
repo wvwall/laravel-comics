@@ -81,3 +81,222 @@
         }
     }
 }
+.details {
+    height: auto;
+    .blue {
+        height: 60px;
+        background-color: $primaryColor;
+        .container {
+            @include container-center-2;
+            .thumb-card {
+                position: relative;
+                top: -185px;
+                text-transform: uppercase;
+                font-size: 0.7em;
+                img {
+                    width: 150px;
+                    border: 1px solid #fff;
+                }
+                .comicB {
+                    position: absolute;
+                    color: red;
+                    top: 0;
+                    z-index: 1;
+                    
+                    background-color: #00A9D9;
+                    color: #fff;
+                }  
+                .viewG {
+                    position: absolute;
+                    color: red;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 1;
+                    
+                    background-color: #00A9D9;
+                    color: #fff;
+                    width: 150px;
+                    text-align: center;
+                }    
+            }
+            
+        }
+    }
+    .description {
+        height: 400px;
+        .container {
+            @include container-center-2;
+            margin-top: 50px;
+            display: flex;
+            .left {
+                width: 65%;
+                h3 {
+                    text-transform: uppercase;
+                    color: #003F5E;
+                }
+                .green {
+                    width: 100%;
+                    height: 45px;
+                    background-color: #55BA59;
+                    border-bottom: 1px solid #555555;
+                    display: flex;
+                    margin: 20px 0 ;
+                    .left {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 65%;
+                        height: 100%;
+                        span {
+                            color: #fff;
+                            font-size: 0.9em;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            &.opacity {
+                                color: #BAFD9C;
+                            }
+                        }
+                    }
+                    .right {
+                        width: 35%;
+                        height: 100%;
+                        border-left: 1px solid #555555;
+                        display: flex; 
+                         justify-content: center;
+                        align-items: center;
+                        span {
+                            width: 100%;
+                            color: #fff;
+                            font-size: 0.8em;
+                            text-transform: capitalize;
+                            
+                        }
+                    }
+                }
+                p {
+                    font-size: 0.9em;
+                }
+            }
+            
+        }
+        .right {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            
+            img {
+                width: 250px;
+                margin-left: 20px;
+            }
+            span {
+                display: block;
+                text-align: right;
+                margin-right: 40px;
+                text-transform: uppercase;
+                color: #555555;
+                font-size: 0.9em;
+                font-weight: 500;
+            }
+        }
+    }
+    .cast {
+        min-height: 400px;
+        background-color: #F6F6F6;
+        .container {
+            @include container-center-2;
+            display: flex;
+            .left {
+                display: flex;
+                flex-wrap: wrap;
+                width: 55%;
+                .tit {
+                    font-weight: 600;
+                        color: #003F5E;
+                        font-size: 1.5em;
+                }
+                .col-95 {
+                    padding: 20px 0;
+                    border-bottom: 1px solid #D8D8D8;
+                    width: 95%;
+                    display: flex;
+                   .leftArt {
+                       width: 25%;
+                       font-size: 0.8em;
+                       font-weight: 500;
+                       color: #003F5E;
+                   }
+                   .rightArt {
+                       width: 75%;
+                       line-height: 15px;
+                       a {
+                           font-size: 0.9em;
+                           text-decoration: none;
+                           color: #00A9D9;
+                       }
+                   }
+                }
+            }
+           .right {
+               width: 45%;
+            .tit {
+                font-weight: 600;
+                    color: #003F5E;
+                    font-size: 1.5em;
+            }
+            .col-95 {
+                padding: 20px 0;
+                border-bottom: 1px solid #D8D8D8;
+                width: 95%;
+                display: flex;
+               .leftArt {
+                   width: 25%;
+                   font-size: 0.8em;
+                   font-weight: 500;
+                   color: #003F5E;
+                   margin-right: 50px;
+               }
+               .rightArt {
+                   width: 75%;
+                   line-height: 15px;
+                   a {
+                       font-size: 0.9em;
+                       text-decoration: none;
+                       color: #00A9D9;
+                       &.series {
+                           text-transform: uppercase;
+                       }
+                   }
+               }
+            }
+           }
+        }
+    }
+
+    .icon-cast {
+        background-color: #F6F6F6 ;
+        border: 1px solid #D8D8D8;
+        height: 80px;
+        .container {
+            @include container-center-2;
+            height: 100%;
+            display: flex;
+            .ico {
+                width: calc(100% / 4);
+                height: 100%;
+                border-left: 1px solid #D8D8D8;
+                border-right: 1px solid #D8D8D8;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                text-transform: uppercase;
+                color: #D8D8D8;
+                font-size: 0.9em;
+                font-weight: 600;
+                img {
+                    width: 30px;
+                    background-color: #D8D8D8;
+                }
+            }
+        }
+    }
+}
