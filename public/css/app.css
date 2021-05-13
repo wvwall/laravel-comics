@@ -81,8 +81,86 @@ nav .nav-bottom .container .info-bottom .search {
   background-size: cover;
 }
 
-main {
-  height: 500px;
+.sec-cards {
+  min-height: auto;
+  background-color: #1C1C1C;
+}
+.sec-cards .container {
+  width: 75%;
+  margin: 0 auto;
+}
+.sec-cards .container .current {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #0282F9;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: -20px;
+}
+.sec-cards .container .current h4 {
+  font-weight: 500;
+}
+.sec-cards .container .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.sec-cards .container .cards .card {
+  width: calc(100% / 6 - 20px);
+  margin: 0 10px;
+}
+.sec-cards .container .cards .card .square {
+  height: 150px;
+  overflow: hidden;
+}
+.sec-cards .container .cards .card span {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin: 20px 0;
+  display: block;
+}
+.sec-cards .container .load {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.sec-cards .container .load h4 {
+  padding: 10px;
+  background-color: #0282F9;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.sec-cards .icon-main {
+  height: 120px;
+  background-color: #0282F9;
+}
+.sec-cards .icon-main .container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.sec-cards .icon-main .container .img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.8em;
+}
+.sec-cards .icon-main .container .img img {
+  width: 40px;
+  margin-right: 10px;
 }
 
 footer .footer-top {

@@ -1,3 +1,83 @@
-main {
-    height: 500px;
+.sec-cards {
+    min-height: auto;
+    background-color: #1C1C1C;
+    .container {
+        @include container-center;
+        .current {
+            text-transform: uppercase;
+            padding: 10px;
+            background-color: $primaryColor;
+            width: 180px;
+            text-align: center;
+            color: #fff;
+            position: relative;
+            top: -20px;
+            h4 {
+                font-weight: 500;
+            }
+            
+        }
+        .cards {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            .card {
+                width: calc(100% / 6 - 20px);
+                margin: 0 10px;
+                .square {
+                    height: 150px;
+                    overflow: hidden;
+                }
+                span {
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 0.7em;
+                    margin: 20px 0;
+                    display: block;
+                }
+            }
+            
+        }
+        .load {
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            h4 {
+                padding: 10px;
+                background-color: $primaryColor;
+                width: 180px;
+                text-align: center;
+                color: #fff;
+                font-weight: 500;
+                margin-bottom: 30px;
+            }
+            
+        }
+        
+    }
+    .icon-main {
+        height: 120px;
+        background-color: $primaryColor;
+        .container {
+            @include container-center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            .img {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 0.8em;
+                img {
+                    width: 40px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
 }

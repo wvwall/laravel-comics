@@ -103,7 +103,7 @@
                             <p>All site Content TM 2020 DC Entertainment, unless otherwise <span>noted here</span>. All rights reserved. <span>Cookies Settings</span> </p>
                         </div>
                         <div class="right-container">
-                            <img src="./images/dc-logo-bg-Copia.png" alt="">
+                            <img src="/images/dc-logo-bg-Copia.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -113,11 +113,11 @@
                         <div class="right-footer">
                         <span>follow us</span>
                         <div class="icons">
-                            <img src="./images/footer-facebook.png" alt="">
-                            <img src="./images/footer-twitter.png" alt="">
-                            <img src="./images/footer-youtube.png" alt="">
-                            <img src="./images/footer-pinterest.png" alt="">
-                            <img src="./images/footer-periscope.png" alt="">
+                            <img src="/images/footer-facebook.png" alt="">
+                            <img src="/images/footer-twitter.png" alt="">
+                            <img src="/images/footer-youtube.png" alt="">
+                            <img src="/images/footer-pinterest.png" alt="">
+                            <img src="/images/footer-periscope.png" alt="">
                         </div>
                         </div>
                         
